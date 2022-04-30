@@ -1,6 +1,7 @@
 /*Sacando las viñetas  de la lista no ordenada*/
 *{list-style:none;}
 
+/*Inicio*/
 *{
     margin: 0;
     padding: 0;
@@ -57,6 +58,8 @@ h1{
     text-align: center;
 }
 
+/*Pagina Expedientes*/
+
 .menu-expedientes{
     color: black;
     background-color: grey;
@@ -75,6 +78,9 @@ h1{
 .piepagina-expedientes{
     background-color: bisque;
 }
+
+/*Pagina Peliculas*/
+
 .menu-peliculas{
     color: black;
     background-color: grey;
@@ -109,6 +115,9 @@ background-color: rgb(191, 129, 129);
     background-color: bisque;
     text-align: center;
 }
+
+/*Pagina Videos*/
+
 .menu-videos{
     color: black;
     background-color: grey;
@@ -142,6 +151,9 @@ background-color: rgb(191, 129, 129);
     background-color: bisque;
     text-align: center;
 }
+
+/*Pagina Contacto*/
+
 .menu-contacto{
     color: black;
     background-color: grey;
