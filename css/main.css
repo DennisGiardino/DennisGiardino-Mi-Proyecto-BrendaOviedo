@@ -57,6 +57,14 @@ h1{
     background-color: bisque;
     text-align: center;
 }
+.iconos-index {
+    font-size: 1%;
+    
+}
+.iconos-index :hover {
+    background-color: aqua;
+    
+}
 
 /*Pagina Expedientes*/
 
