@@ -1,12 +1,10 @@
 /*Sacando las viñetas  de la lista no ordenada*/
-*{list-style:none;}
-
-/*Inicio*/
-*{
+*{list-style:none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*Inicio*/
 .container-fluid {
     background-color: gray
 }
@@ -85,6 +83,7 @@ h1{
 }
 .piepagina-expedientes{
     background-color: bisque;
+    text-align: center;
 }
 
 /*Pagina Peliculas*/
