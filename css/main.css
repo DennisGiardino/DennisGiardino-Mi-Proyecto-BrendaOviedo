@@ -106,6 +106,16 @@ background-color: rgb(191, 129, 129);
     background-color: brown;
     font-family: 'Montserrat', sans-serif;
 }
+.container{   width: 100%;
+    height: 250px;
+
+
+
+}
+.imag{
+    width: 100%;
+    height: 250px;
+}
 .lista-tabla{
     background-color:gray ;
     font-family: 'Montserrat', sans-serif;
