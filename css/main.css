@@ -43,15 +43,20 @@
 .pie-pagina {
   background-color: bisque;
   text-align: center; }
-
-.iconos-index {
-  font-size: 1%; }
-
-.iconos-index :hover {
-  background-color: #b81f1f;
-  border-radius: 40px; }
+  .pie-pagina .iconos-index {
+    font-size: 1%; }
+  .pie-pagina .iconos-index :hover {
+    background-color: #b81f1f;
+    border-radius: 40px; }
 
 /*Pagina Expedientes*/
+.menu-expedientes {
+  color: black;
+  background-color: grey;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 5px;
+  padding: 15px; }
 
 .hola-titulo {
   color: grey;
@@ -66,9 +71,16 @@
   text-align: center; }
 
 /*Pagina Peliculas*/
+.menu-peliculas {
+  color: black;
+  background-color: grey;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 5px;
+  padding: 15px; }
 
 .main-peliculas {
- background-color: #bf8181; }
+  background-color: #bf8181; }
 
 .titulo-peliculas {
   background-color: black;
@@ -81,36 +93,26 @@
 .container {
   width: 100%;
   height: 250px; }
-
-.imag {
-  width: 100%;
-  height: 250px; }
+  .container .imag {
+    width: 100%;
+    height: 250px; }
 
 .lista-tabla {
   background-color: gray;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-align: center; }
-
-.hola-tabla {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center; }
+  .lista-tabla .hola-tabla {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; }
 
 .piepagina-peliculas {
   background-color: bisque;
   text-align: center; }
 
 /*Pagina Videos*/
-.menu-videos {
-  color: black;
-  background-color: grey;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  margin: 5px;
-  padding: 15px; }
-
 .titulo-videos {
   background-color: black;
   font-family: 'Montserrat', sans-serif; }
@@ -118,20 +120,21 @@
 .fondo-videos {
   background-color: brown;
   text-align: center; }
-
-.titulosecuendario-video {
-  color: antiquewhite;
-  background-color: black;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  border: solid 2px antiquewhite; }
-
-.secundario-video {
-  color: antiquewhite;
-  background-color: black;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  border: solid 2px antiquewhite; }
+  .fondo-videos .fondo-videos {
+    background-color: brown;
+    text-align: center; }
+  .fondo-videos .titulosecuendario-video {
+    color: antiquewhite;
+    background-color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 2px antiquewhite; }
+  .fondo-videos .secundario-video {
+    color: antiquewhite;
+    background-color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 2px antiquewhite; }
 
 .piedepagina-video {
   background-color: bisque;
