@@ -11,8 +11,6 @@
 
 }
 
-
-
 .logo p a img{ 
     display: flex;
     width: 60px;
@@ -41,12 +39,12 @@
 }
 .imagenes-principales{
     text-align: center;
-    background-color: black;
+    background-color:black;
+    .imagen-v{
+        width: 900px;
+        border: solid 2px antiquewhite;
 }
-.imagen-v{
-    width: 900px;
-    border: solid 2px antiquewhite;
-    }
+}
 .pie-pagina{
     background-color: bisque;
     text-align: center;

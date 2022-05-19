@@ -36,10 +36,9 @@
 .imagenes-principales {
   text-align: center;
   background-color: black; }
-
-.imagen-v {
-  width: 900px;
-  border: solid 2px antiquewhite; }
+  .imagenes-principales .imagen-v {
+    width: 900px;
+    border: solid 2px antiquewhite; }
 
 .pie-pagina {
   background-color: bisque;
@@ -53,13 +52,6 @@
   border-radius: 40px; }
 
 /*Pagina Expedientes*/
-.menu-expedientes {
-  color: black;
-  background-color: grey;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  margin: 5px;
-  padding: 15px; }
 
 .hola-titulo {
   color: grey;
@@ -74,16 +66,9 @@
   text-align: center; }
 
 /*Pagina Peliculas*/
-.menu-peliculas {
-  color: black;
-  background-color: grey;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  margin: 5px;
-  padding: 15px; }
 
 .main-peliculas {
-  background-color: #bf8181; }
+ background-color: #bf8181; }
 
 .titulo-peliculas {
   background-color: black;
