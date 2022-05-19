@@ -16,11 +16,6 @@
   padding-top: 10px;
   box-sizing: border-box; }
 
-.encabezado-secundario {
-  color: white;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif; }
-
 .pagina-central {
   background-color: black;
   /*agregando flexbox*/
@@ -32,6 +27,10 @@
     font-family: 'Montserrat', sans-serif;
     margin: 5px;
     padding: 15px; }
+  .pagina-central .encabezado-secundario {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
 
 .imagenes-principales {
   text-align: center;
@@ -141,14 +140,6 @@
   text-align: center; }
 
 /*Pagina Contacto*/
-.menu-contacto {
-  color: black;
-  background-color: grey;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  margin: 5px;
-  padding: 15px; }
-
 .div-contacto {
   color: antiquewhite;
   background-color: black;
