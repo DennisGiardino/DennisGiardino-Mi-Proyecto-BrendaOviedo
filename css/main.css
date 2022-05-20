@@ -39,9 +39,6 @@ div {
 .imagenes-principales {
   text-align: center;
   background-color: black; }
-  .imagenes-principales .imagen-v {
-    width: 900px;
-    border: solid 2px antiquewhite; }
 
 .pie-pagina {
   background-color: bisque;
