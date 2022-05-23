@@ -61,14 +61,27 @@ div {
 .hola-titulo {
   color: grey;
   background-color: black;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
 
-.hola-imagenes {
-  background-color: #d18484; }
+.body-expedientes {
+  margin: 0;
+  padding: 0; }
+  .body-expedientes .row {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap; }
+  .body-expedientes .column {
+    flex: 25%;
+    padding: 5px; }
+  .body-expedientes .column img {
+    margin-top: 5px; }
 
 .piepagina-expedientes {
   background-color: bisque;
-  text-align: center; }
+  text-align: center;
+  margin: 0;
+  padding: 0; }
 
 /*Pagina Peliculas*/
 .menu-peliculas {
@@ -162,3 +175,11 @@ div {
     justify-content: center;
     flex-direction: column;
     align-items: center; } }
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%; } }
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%; } }

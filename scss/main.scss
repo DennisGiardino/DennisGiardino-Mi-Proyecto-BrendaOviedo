@@ -69,14 +69,29 @@
     color:grey;
     background-color:black;
     font-family:  'Montserrat', sans-serif;
+    text-align: center;
 }
-.hola-imagenes{
-    background-color: rgb(209, 132, 132);
-    
+.body-expedientes{
+    margin: 0;
+    padding: 0;
+    .row{
+        display: flex;
+        padding: 5px;
+        flex-wrap: wrap;}
+    .column{
+        flex: 25%;
+        padding: 5px;}
+        .column img{
+            margin-top: 5px;
+        }
 }
+
+
 .piepagina-expedientes{
     background-color: bisque;
-    text-align: center;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
 }
 
 /*Pagina Peliculas*/
@@ -187,4 +202,16 @@ background-color: rgb(191, 129, 129);
     align-items: center ;
     }
 
+}
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+        
+    }
+}
+@media (max-width:800px){
+    .column{
+        flex: 50%;
+        
+    }
 }
