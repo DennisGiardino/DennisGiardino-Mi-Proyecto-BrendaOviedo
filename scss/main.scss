@@ -174,16 +174,9 @@ background-color: rgb(191, 129, 129);
     background-color: rgb(184, 31, 31);
     border-radius: 40px; 
 }
-//Extend
-$ancho:900px;
-$black: rgb(0, 0, 0);
-$red: rgb(236, 24, 24);
 
-.imagen-1{
-    border: solid 2px $black
-    width: $ancho/900px;
 
-}
+
 
 
 @media screen and (max-width: 768px) {
