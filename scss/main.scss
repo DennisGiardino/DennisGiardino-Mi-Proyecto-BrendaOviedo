@@ -58,13 +58,7 @@
 
 /*Pagina Expedientes*/
 
-.menu-expedientes{
-    color: black;
-    background-color: grey;
-    font-family:  'Montserrat', sans-serif;
-    text-align: center;
-    margin: 5px; padding: 15px;
-}
+
 .hola-titulo{
     color:grey;
     background-color:black;
@@ -202,15 +196,18 @@ background-color: rgb(191, 129, 129);
     }
 
 }
-@media (max-width: 600px){
-    .column{
-        flex: 100%;
-        
+@media (max-width:800px){ 
+    .body-expedientes{
+        .column{
+            flex: 50%;
+            
+        }
     }
 }
-@media (max-width:800px){
-    .column{
-        flex: 50%;
-        
+@media (max-width: 600px){ 
+    .body-expedientes{
+        .column{
+            flex: 100%;
     }
+}
 }
