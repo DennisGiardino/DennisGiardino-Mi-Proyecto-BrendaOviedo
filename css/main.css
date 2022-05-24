@@ -61,13 +61,13 @@ div {
   padding: 0; }
   .body-expedientes .row {
     display: flex;
-    padding: 5px;
+    padding: 8px;
     flex-wrap: wrap; }
   .body-expedientes .column {
     flex: 25%;
-    padding: 5px; }
+    padding: 8px; }
   .body-expedientes .column img {
-    margin-top: 5px; }
+    margin-top: 8px; }
 
 .piepagina-expedientes {
   background-color: bisque;
@@ -79,8 +79,8 @@ div {
   background-color: grey;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  margin: 5px;
-  padding: 15px; }
+  margin: 4px;
+  padding: 12px; }
 
 .main-peliculas {
   background-color: #bf8181; }

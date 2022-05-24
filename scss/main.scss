@@ -1,5 +1,8 @@
 @import "variables";
 
+//Operaciones
+$spacing: 2px;
+
 
 .container-fluid {
     background-color: gray
@@ -70,13 +73,13 @@
     padding: 0;
     .row{
         display: flex;
-        padding: 5px;
+        padding: $spacing*4;
         flex-wrap: wrap;}
     .column{
         flex: 25%;
-        padding: 5px;}
+        padding: $spacing*4;}
         .column img{
-            margin-top: 5px;
+            margin-top: $spacing*4;
         }
 }
 
@@ -94,7 +97,7 @@
     background-color: grey;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin: 5px; padding: 15px;
+    margin:$spacing*2; padding:$spacing*6;
 }
 .main-peliculas{
 background-color: rgb(191, 129, 129);
@@ -182,7 +185,6 @@ background-color: rgb(191, 129, 129);
     background-color: rgb(184, 31, 31);
     border-radius: 40px; 
 }
-
 
 
 
