@@ -123,21 +123,22 @@ div {
 .fondo-videos {
   background-color: brown;
   text-align: center; }
-  .fondo-videos .fondo-videos {
-    background-color: brown;
-    text-align: center; }
-  .fondo-videos .titulosecuendario-video {
-    color: antiquewhite;
-    background-color: black;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    border: solid 2px antiquewhite; }
-  .fondo-videos .secundario-video {
-    color: antiquewhite;
-    background-color: black;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    border: solid 2px antiquewhite; }
+  .fondo-videos .embed-responsive {
+    background-color: brown; }
+
+.titulosecuendario-video {
+  color: antiquewhite;
+  background-color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border: solid 2px antiquewhite; }
+
+.secundario-video {
+  color: antiquewhite;
+  background-color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border: solid 2px antiquewhite; }
 
 .piedepagina-video {
   background-color: bisque;
@@ -159,6 +160,15 @@ div {
   background-color: #b81f1f;
   border-radius: 40px; }
 
+.red-youtube {
+  color: red; }
+
+.red-facebook {
+  color: #064fd7; }
+
+.red-instagram {
+  color: #cc02cc; }
+
 @media screen and (max-width: 768px) {
   .menu-principal {
     Display: flex;
@@ -172,4 +182,8 @@ div {
 
 @media (max-width: 600px) {
   .body-expedientes .column {
+    flex: 100%; } }
+
+@media (max-width: 600px) {
+  .fondo-videos {
     flex: 100%; } }
