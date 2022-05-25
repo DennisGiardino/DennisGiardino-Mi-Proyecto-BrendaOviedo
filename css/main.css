@@ -160,18 +160,23 @@ div {
   background-color: #b81f1f;
   border-radius: 40px; }
 
-.red-youtube {
-  color: red; }
+@media (max-width: 800px) {
+  .pagina-central {
+    flex: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; } }
 
-.red-facebook {
-  color: #064fd7; }
-
-.red-instagram {
-  color: #cc02cc; }
-
-@media screen and (max-width: 768px) {
+@media (max-width: 800px) {
   .menu-principal {
-    Display: flex;
+    flex: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; } }
+
+@media (max-width: 600px) {
+  .menu-principal {
+    flex: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: center; } }
