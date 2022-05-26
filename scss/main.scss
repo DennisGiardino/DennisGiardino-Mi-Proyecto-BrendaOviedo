@@ -91,7 +91,7 @@ $redes: (
         border-radius: 40px;
 
     }
-    .red-youtube{ 
+    .red-youtube :hover{ 
         background-color: red;
         border-radius: 40px;
     }
@@ -140,7 +140,7 @@ $redes: (
         border-radius: 40px;
 
     }
-    .red-youtube{ 
+    .red-youtube :hover{ 
         background-color: red;
         border-radius: 40px;
     }
@@ -189,9 +189,31 @@ background-color: rgb(191, 129, 129);
 }
 
 .piepagina-peliculas{
+
     background-color: bisque;
     text-align: center;
+    font-size: 13px;
+    .iconos{
+    display: inline-flex;
+    padding-left:3px;
+    padding-right:3px ;}
+        
+    .red-instagram :hover{
+        background-color: #a007b4;
+        border-radius: 40px;
+    }
+
+    .red-facebook :hover{
+        background-color: blue;
+        border-radius: 40px;
+
+    }
+    .red-youtube :hover{ 
+        background-color: red;
+        border-radius: 40px;
+    }
 }
+
 
 /*Pagina Videos*/
 
@@ -204,7 +226,9 @@ background-color: rgb(191, 129, 129);
     text-align: center;
     .embed-responsive {
         background-color: brown;
-    } }
+    } 
+}
+
     //Extend
 .title-segundo{  
     color: antiquewhite;
@@ -217,11 +241,7 @@ background-color: rgb(191, 129, 129);
     @extend .title-segundo;
     
 }
-
-
-
-
-    .secundario-video{
+.secundario-video{
         color: antiquewhite;
         background-color: black;
         text-align: center;
@@ -230,10 +250,32 @@ background-color: rgb(191, 129, 129);
     }
 
 
-.piedepagina-video{
+.piepagina-videos{
+
     background-color: bisque;
     text-align: center;
+    font-size: 13px;
+    .iconos{
+    display: inline-flex;
+    padding-left:3px;
+    padding-right:3px ;}
+        
+    .red-instagram :hover{
+        background-color: #a007b4;
+        border-radius: 40px;
+    }
+
+    .red-facebook :hover{
+        background-color: blue;
+        border-radius: 40px;
+
+    }
+    .red-youtube :hover{ 
+        background-color: red;
+        border-radius: 40px;
+    }
 }
+
 
 /*Pagina Contacto*/
 
@@ -241,12 +283,29 @@ background-color: rgb(191, 129, 129);
 @include title( 3rem,black, grey)
 }
 .piepagina-contacto{
+
     background-color: bisque;
     text-align: center;
-} 
-.iconos :hover {
-    background-color: rgb(184, 31, 31);
-    border-radius: 40px; 
+    font-size: 13px;
+    .iconos{
+    display: inline-flex;
+    padding-left:3px;
+    padding-right:3px ;}
+        
+    .red-instagram :hover{
+        background-color: #a007b4;
+        border-radius: 40px;
+    }
+
+    .red-facebook :hover{
+        background-color: blue;
+        border-radius: 40px;
+
+    }
+    .red-youtube :hover{ 
+        background-color: red;
+        border-radius: 40px;
+    }
 }
 
 

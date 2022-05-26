@@ -65,7 +65,7 @@ div {
   .piepagina-index .red-facebook :hover {
     background-color: blue;
     border-radius: 40px; }
-  .piepagina-index .red-youtube {
+  .piepagina-index .red-youtube :hover {
     background-color: red;
     border-radius: 40px; }
 
@@ -104,7 +104,7 @@ div {
   .piepagina-expedientes .red-facebook :hover {
     background-color: blue;
     border-radius: 40px; }
-  .piepagina-expedientes .red-youtube {
+  .piepagina-expedientes .red-youtube :hover {
     background-color: red;
     border-radius: 40px; }
 
@@ -155,7 +155,21 @@ div {
 
 .piepagina-peliculas {
   background-color: bisque;
-  text-align: center; }
+  text-align: center;
+  font-size: 13px; }
+  .piepagina-peliculas .iconos {
+    display: inline-flex;
+    padding-left: 3px;
+    padding-right: 3px; }
+  .piepagina-peliculas .red-instagram :hover {
+    background-color: #a007b4;
+    border-radius: 40px; }
+  .piepagina-peliculas .red-facebook :hover {
+    background-color: blue;
+    border-radius: 40px; }
+  .piepagina-peliculas .red-youtube :hover {
+    background-color: red;
+    border-radius: 40px; }
 
 /*Pagina Videos*/
 .titulo-videos {
@@ -185,9 +199,23 @@ div {
   font-family: 'Montserrat', sans-serif;
   border: solid 2px antiquewhite; }
 
-.piedepagina-video {
+.piepagina-videos {
   background-color: bisque;
-  text-align: center; }
+  text-align: center;
+  font-size: 13px; }
+  .piepagina-videos .iconos {
+    display: inline-flex;
+    padding-left: 3px;
+    padding-right: 3px; }
+  .piepagina-videos .red-instagram :hover {
+    background-color: #a007b4;
+    border-radius: 40px; }
+  .piepagina-videos .red-facebook :hover {
+    background-color: blue;
+    border-radius: 40px; }
+  .piepagina-videos .red-youtube :hover {
+    background-color: red;
+    border-radius: 40px; }
 
 /*Pagina Contacto*/
 .div-contacto {
@@ -199,11 +227,21 @@ div {
 
 .piepagina-contacto {
   background-color: bisque;
-  text-align: center; }
-
-.iconos :hover {
-  background-color: #b81f1f;
-  border-radius: 40px; }
+  text-align: center;
+  font-size: 13px; }
+  .piepagina-contacto .iconos {
+    display: inline-flex;
+    padding-left: 3px;
+    padding-right: 3px; }
+  .piepagina-contacto .red-instagram :hover {
+    background-color: #a007b4;
+    border-radius: 40px; }
+  .piepagina-contacto .red-facebook :hover {
+    background-color: blue;
+    border-radius: 40px; }
+  .piepagina-contacto .red-youtube :hover {
+    background-color: red;
+    border-radius: 40px; }
 
 @media (max-width: 800px) {
   .pagina-central {
