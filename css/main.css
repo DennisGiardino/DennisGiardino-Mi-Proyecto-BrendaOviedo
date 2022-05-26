@@ -26,11 +26,10 @@ div {
   flex-flow: row wrap; }
   .pagina-central h1 {
     color: grey;
-    font-size: 3rem;
-    text-align: center;
+    background-color: black;
     font-family: 'Montserrat', sans-serif;
-    margin: 5px;
-    padding: 15px; }
+    text-align: center;
+    font-size: 3rem; }
   .pagina-central .encabezado-secundario {
     color: white;
     text-align: center;
@@ -54,7 +53,8 @@ div {
   color: grey;
   background-color: black;
   font-family: 'Montserrat', sans-serif;
-  text-align: center; }
+  text-align: center;
+  font-size: 2rem; }
 
 .body-expedientes {
   margin: 0;
@@ -79,6 +79,9 @@ div {
   background-color: grey;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  font-size: 2rem; }
+
+.menu-peliculas {
   margin: 4px;
   padding: 12px; }
 
@@ -86,12 +89,18 @@ div {
   background-color: #bf8181; }
 
 .titulo-peliculas {
+  color: grey;
   background-color: black;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 3rem; }
 
 .titulo-secundario-peliculas {
+  color: black;
   background-color: brown;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 2rem; }
 
 .container {
   width: 100%;
@@ -117,8 +126,11 @@ div {
 
 /*Pagina Videos*/
 .titulo-videos {
+  color: gray;
   background-color: black;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 4rem; }
 
 .fondo-videos {
   background-color: brown;
@@ -129,8 +141,11 @@ div {
 .titulosecuendario-video {
   color: antiquewhite;
   background-color: black;
-  text-align: center;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 3rem; }
+
+.titulosecuendario-video {
   border: solid 2px antiquewhite; }
 
 .secundario-video {
@@ -146,11 +161,11 @@ div {
 
 /*Pagina Contacto*/
 .div-contacto {
-  color: antiquewhite;
+  color: grey;
   background-color: black;
-  text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem; }
+  text-align: center;
+  font-size: 3rem; }
 
 .piepagina-contacto {
   background-color: bisque;
