@@ -2,6 +2,18 @@
 div {
   background-color: grey; }
 
+.red-youtube {
+  color: red; }
+
+.red-facebook {
+  color: blue; }
+
+.red-instagram {
+  color: #a007b4; }
+
+* {
+  list-style: none; }
+
 .container-fluid {
   background-color: gray; }
 
@@ -39,13 +51,22 @@ div {
   text-align: center;
   background-color: black; }
 
-.pie-pagina {
+.piepagina-index {
   background-color: bisque;
-  text-align: center; }
-  .pie-pagina .iconos-index {
-    font-size: 1%; }
-  .pie-pagina .iconos-index :hover {
-    background-color: #b81f1f;
+  text-align: center;
+  font-size: 13px; }
+  .piepagina-index .iconos {
+    display: inline-flex;
+    padding-left: 3px;
+    padding-right: 3px; }
+  .piepagina-index .red-instagram :hover {
+    background-color: #a007b4;
+    border-radius: 40px; }
+  .piepagina-index .red-facebook :hover {
+    background-color: blue;
+    border-radius: 40px; }
+  .piepagina-index .red-youtube {
+    background-color: red;
     border-radius: 40px; }
 
 /*Pagina Expedientes*/
@@ -71,7 +92,21 @@ div {
 
 .piepagina-expedientes {
   background-color: bisque;
-  text-align: center; }
+  text-align: center;
+  font-size: 13px; }
+  .piepagina-expedientes .iconos {
+    display: inline-flex;
+    padding-left: 3px;
+    padding-right: 3px; }
+  .piepagina-expedientes .red-instagram :hover {
+    background-color: #a007b4;
+    border-radius: 40px; }
+  .piepagina-expedientes .red-facebook :hover {
+    background-color: blue;
+    border-radius: 40px; }
+  .piepagina-expedientes .red-youtube {
+    background-color: red;
+    border-radius: 40px; }
 
 /*Pagina Peliculas*/
 .menu-peliculas {

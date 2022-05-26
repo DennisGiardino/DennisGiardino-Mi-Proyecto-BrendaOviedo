@@ -11,6 +11,21 @@ $spacing: 2px;
     text-align: center;
     font-size:$fsize ;
 }
+//Mapas
+$redes: (
+    youtube: red,
+    facebook: blue,
+    instagram: rgb(160, 7, 180),
+);
+
+@each $red, $color in $redes {
+    .red-#{$red} {
+        color:$color
+    }
+    
+}
+
+*{list-style:none;}
 
 
 
@@ -56,16 +71,31 @@ $spacing: 2px;
     text-align: center;
     background-color:black
 }
-.pie-pagina{
+.piepagina-index{
+
     background-color: bisque;
     text-align: center;
-    .iconos-index {
-        font-size: 1%;}
-        .iconos-index :hover {
-            background-color: rgb(184, 31, 31);
-            border-radius: 40px;
-        }
-        }
+    font-size: 13px;
+    .iconos{
+    display: inline-flex;
+    padding-left:3px;
+    padding-right:3px ;}
+        
+    .red-instagram :hover{
+        background-color: #a007b4;
+        border-radius: 40px;
+    }
+
+    .red-facebook :hover{
+        background-color: blue;
+        border-radius: 40px;
+
+    }
+    .red-youtube{ 
+        background-color: red;
+        border-radius: 40px;
+    }
+}
 
 
 /*Pagina Expedientes*/
@@ -91,10 +121,34 @@ $spacing: 2px;
 
 
 .piepagina-expedientes{
-    background-color: bisque;
-    text-align: center; 
 
+    background-color: bisque;
+    text-align: center;
+    font-size: 13px;
+    .iconos{
+    display: inline-flex;
+    padding-left:3px;
+    padding-right:3px ;}
+        
+    .red-instagram :hover{
+        background-color: #a007b4;
+        border-radius: 40px;
+    }
+
+    .red-facebook :hover{
+        background-color: blue;
+        border-radius: 40px;
+
+    }
+    .red-youtube{ 
+        background-color: red;
+        border-radius: 40px;
+    }
 }
+
+
+
+
 
 /*Pagina Peliculas*/
 
