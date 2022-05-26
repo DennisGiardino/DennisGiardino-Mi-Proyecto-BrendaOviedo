@@ -79,9 +79,7 @@ div {
   background-color: grey;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 2rem; }
-
-.menu-peliculas {
+  font-size: 2rem;
   margin: 4px;
   padding: 12px; }
 
@@ -138,14 +136,11 @@ div {
   .fondo-videos .embed-responsive {
     background-color: brown; }
 
-.titulosecuendario-video {
+.title-segundo, .title-tercero {
   color: antiquewhite;
   background-color: black;
-  font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 3rem; }
-
-.titulosecuendario-video {
+  font-family: 'Montserrat', sans-serif;
   border: solid 2px antiquewhite; }
 
 .secundario-video {
