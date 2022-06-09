@@ -69,7 +69,7 @@ div {
     background-color: red;
     border-radius: 40px; }
 
-/*Pagina Expedientes*/
+/*Pagina imageness*/
 .hola-titulo {
   color: grey;
   background-color: black;
@@ -77,34 +77,34 @@ div {
   text-align: center;
   font-size: 2rem; }
 
-.body-expedientes {
+.body-imagenes {
   margin: 0;
   padding: 0; }
-  .body-expedientes .row {
+  .body-imagenes .row {
     display: flex;
     padding: 8px;
     flex-wrap: wrap; }
-  .body-expedientes .column {
+  .body-imagenes .column {
     flex: 25%;
     padding: 8px; }
-  .body-expedientes .column img {
+  .body-imagenes .column img {
     margin-top: 8px; }
 
-.piepagina-expedientes {
+.piepagina-imagenes {
   background-color: bisque;
   text-align: center;
   font-size: 13px; }
-  .piepagina-expedientes .iconos {
+  .piepagina-imagenes .iconos {
     display: inline-flex;
     padding-left: 3px;
     padding-right: 3px; }
-  .piepagina-expedientes .red-instagram :hover {
+  .piepagina-imagenes .red-instagram :hover {
     background-color: #a007b4;
     border-radius: 40px; }
-  .piepagina-expedientes .red-facebook :hover {
+  .piepagina-imagenes .red-facebook :hover {
     background-color: blue;
     border-radius: 40px; }
-  .piepagina-expedientes .red-youtube :hover {
+  .piepagina-imagenes .red-youtube :hover {
     background-color: red;
     border-radius: 40px; }
 
