@@ -156,16 +156,57 @@ $redes: (
     @include title(2rem, grey,black );
     margin:$spacing*2; padding:$spacing*6;
 }
+.body-peliculas{  
+    margin: 0;
+    padding: 0; 
+.body-peliculas{
+    background-color: rgb(191, 129, 129);
+    font-family: 'Montserrat',sans-serif;
+    .main-conteiner{
+        margin: 150px auto;
+        width: 600px;
+    table{
+        background-color: white;
+        text-align: left;
+        border-collapse: collapse;
+        width: 100%;
+        }
+    th{
+        padding: 20px;
 
-.main-peliculas{
-background-color: rgb(191, 129, 129);
+    }
+    td{
+        padding: 20px;
+    }
+    thead{
+        background-color: black ;
+        border-bottom: solid 5px  brown;
+        color: white;
+    }
+    tr:nth-child(even){
+        background-color: gray;}
+
+        tr :hover{
+            background-color:rgb(191, 129, 129);
+            color: white;
+        }
+
 }
+}
+}
+
+
+
 .titulo-peliculas{
     @include title(3rem,black,grey)
 }
 .titulo-secundario-peliculas{
     @include title(2rem,brown ,black)
 
+}
+.titulo-secundario{
+    @include title(2rem,white ,black)
+ 
 }
 .container{  
     width: 100%;
@@ -175,18 +216,7 @@ background-color: rgb(191, 129, 129);
         height: 250px;
 }
 }
-.lista-tabla{
-    background-color:gray ;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    .hola-tabla{
-        font-family:'Montserrat', sans-serif; 
-        font-weight: bold;
-        font-size: 20px;
-        text-align: center;
-    }
-}
+
 
 .piepagina-peliculas{
 

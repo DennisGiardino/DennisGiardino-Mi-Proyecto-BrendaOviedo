@@ -118,8 +118,33 @@ div {
   margin: 4px;
   padding: 12px; }
 
-.main-peliculas {
-  background-color: #bf8181; }
+.body-peliculas {
+  margin: 0;
+  padding: 0; }
+  .body-peliculas .body-peliculas {
+    background-color: #bf8181;
+    font-family: 'Montserrat',sans-serif; }
+    .body-peliculas .body-peliculas .main-conteiner {
+      margin: 150px auto;
+      width: 600px; }
+      .body-peliculas .body-peliculas .main-conteiner table {
+        background-color: white;
+        text-align: left;
+        border-collapse: collapse;
+        width: 100%; }
+      .body-peliculas .body-peliculas .main-conteiner th {
+        padding: 20px; }
+      .body-peliculas .body-peliculas .main-conteiner td {
+        padding: 20px; }
+      .body-peliculas .body-peliculas .main-conteiner thead {
+        background-color: black;
+        border-bottom: solid 5px  brown;
+        color: white; }
+      .body-peliculas .body-peliculas .main-conteiner tr:nth-child(even) {
+        background-color: gray; }
+      .body-peliculas .body-peliculas .main-conteiner tr :hover {
+        background-color: #bf8181;
+        color: white; }
 
 .titulo-peliculas {
   color: grey;
@@ -135,23 +160,19 @@ div {
   text-align: center;
   font-size: 2rem; }
 
+.titulo-secundario {
+  color: black;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 2rem; }
+
 .container {
   width: 100%;
   height: 250px; }
   .container .imag {
     width: 100%;
     height: 250px; }
-
-.lista-tabla {
-  background-color: gray;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  text-align: center; }
-  .lista-tabla .hola-tabla {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center; }
 
 .piepagina-peliculas {
   background-color: bisque;
