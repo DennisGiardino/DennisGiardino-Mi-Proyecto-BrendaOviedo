@@ -121,30 +121,30 @@ div {
 .body-peliculas {
   margin: 0;
   padding: 0; }
-  .body-peliculas .body-peliculas {
+  .body-peliculas .div-peliculas {
     background-color: #bf8181;
     font-family: 'Montserrat',sans-serif; }
-    .body-peliculas .body-peliculas .main-conteiner {
-      margin: 150px auto;
-      width: 600px; }
-      .body-peliculas .body-peliculas .main-conteiner table {
-        background-color: white;
-        text-align: left;
-        border-collapse: collapse;
-        width: 100%; }
-      .body-peliculas .body-peliculas .main-conteiner th {
-        padding: 20px; }
-      .body-peliculas .body-peliculas .main-conteiner td {
-        padding: 20px; }
-      .body-peliculas .body-peliculas .main-conteiner thead {
-        background-color: black;
-        border-bottom: solid 5px  brown;
-        color: white; }
-      .body-peliculas .body-peliculas .main-conteiner tr:nth-child(even) {
-        background-color: gray; }
-      .body-peliculas .body-peliculas .main-conteiner tr :hover {
-        background-color: #bf8181;
-        color: white; }
+  .body-peliculas .main-conteiner {
+    margin: 150px auto;
+    width: 600px; }
+  .body-peliculas table {
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%; }
+  .body-peliculas th {
+    padding: 20px; }
+  .body-peliculas td {
+    padding: 20px; }
+  .body-peliculas thead {
+    background-color: black;
+    border-bottom: solid 5px  brown;
+    color: white; }
+  .body-peliculas tr:nth-child(even) {
+    background-color: gray; }
+  .body-peliculas tr :hover {
+    background-color: #bf8181;
+    color: white; }
 
 .titulo-peliculas {
   color: grey;

@@ -159,12 +159,12 @@ $redes: (
 .body-peliculas{  
     margin: 0;
     padding: 0; 
-.body-peliculas{
+.div-peliculas{
     background-color: rgb(191, 129, 129);
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat',sans-serif;}
     .main-conteiner{
         margin: 150px auto;
-        width: 600px;
+        width: 600px;}
     table{
         background-color: white;
         text-align: left;
@@ -185,15 +185,14 @@ $redes: (
     }
     tr:nth-child(even){
         background-color: gray;}
+    
 
         tr :hover{
             background-color:rgb(191, 129, 129);
-            color: white;
+            color: white;}
         }
 
-}
-}
-}
+
 
 
 
@@ -395,3 +394,4 @@ $redes: (
         flex: 100%;
     }
 }
+
