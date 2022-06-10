@@ -122,6 +122,8 @@ div {
   margin: 0;
   padding: 0; }
   .body-peliculas .div-peliculas {
+    margin: 0;
+    padding: 0;
     background-color: #bf8181;
     font-family: 'Montserrat',sans-serif; }
   .body-peliculas .main-conteiner {
