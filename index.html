@@ -50,13 +50,29 @@
     <h1>Expedientes Frikis</h1>
     <h2 class="encabezado-secundario"><strong>Acompañanos en este viaje</strong></h2>
     </div> 
-    <main class="imagenes-principales">
-        <div class="imagen-1"><img class="imagen-v" src="imagenes/comic.jpg" alt="imagen de comic"></div>
-        <div class="imagen-2"><img class="imagen-v"
-        src="imagenes/marvel.jpg" alt="peliculas vengadores"></div>
-        <div class="imagen-3"><img class="imagen-v"
-        src="imagenes/vengadores.webp" alt="actores"></div>
-    </main>
+
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes/comic.jpg" class="d-block w-100" alt="imagen comic">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/marvel.jpg" class="d-block w-100" alt="pelicula vengadores">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/vengadores.webp" class="d-block w-100" alt="imagen actores">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
     <!--Pie de Pagina-->
     <footer class="piepagina-index">
