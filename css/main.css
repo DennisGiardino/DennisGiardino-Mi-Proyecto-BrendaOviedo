@@ -265,11 +265,11 @@ div {
     align-items: center; } }
 
 @media (max-width: 800px) {
-  .body-expedientes .column {
+  .body-imagenes .column {
     flex: 50%; } }
 
 @media (max-width: 600px) {
-  .body-expedientes .column {
+  .body-imagenes .column {
     flex: 100%; } }
 
 @media (max-width: 600px) {
