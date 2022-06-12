@@ -14,10 +14,18 @@ div {
 * {
   list-style: none; }
 
-.container-fluid {
+body {
   background-color: gray; }
 
+.container-fluid {
+  padding: 0;
+  margin: 0; }
+
+.container-fluid {
+  background-color: antiquewhite; }
+
 #navbarNav {
+  background-color: antiquewhite;
   justify-content: center;
   font-size: 22px;
   letter-spacing: 0.1rem; }
@@ -31,6 +39,15 @@ div {
   text-align: center;
   padding-top: 10px;
   box-sizing: border-box; }
+
+/*Carrusel de BootStrap*/
+#carouselExampleControls {
+  /*Este seria el Carousel sacado de Bootsrap, que agregamos a Index*/
+  border-radius: 2%;
+  width: 80%;
+  height: 180;
+  object-fit: center;
+  left: 10%; }
 
 .pagina-central {
   background-color: black;
@@ -52,6 +69,10 @@ div {
   background-color: black; }
 
 .piepagina-index {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   background-color: bisque;
   text-align: center;
   font-size: 13px; }
@@ -70,6 +91,19 @@ div {
     border-radius: 40px; }
 
 /*Pagina Imagenes*/
+.img-galeria {
+  max-width: 100%; }
+
+.column {
+  flex: 25%;
+  padding: 5px; }
+
+.row {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+  margin: 1px; }
+
 .hola-titulo {
   color: grey;
   background-color: black;
@@ -78,15 +112,10 @@ div {
   font-size: 2rem; }
 
 .body-imagenes {
-  margin: 0;
-  padding: 0; }
-  .body-imagenes .row {
-    display: flex;
-    padding: 8px;
-    flex-wrap: wrap; }
+  padding: 10px;
+  margin: 15px; }
   .body-imagenes .column {
-    flex: 25%;
-    padding: 8px; }
+    padding: 10px; }
   .body-imagenes .column img {
     margin-top: 8px; }
 
@@ -109,6 +138,12 @@ div {
     border-radius: 40px; }
 
 /*Pagina Peliculas*/
+.bg-light {
+  --bs-bg-opacity: 0; }
+
+.imag {
+  max-width: 100%; }
+
 .menu-peliculas {
   color: black;
   background-color: grey;
@@ -118,35 +153,13 @@ div {
   margin: 4px;
   padding: 12px; }
 
-.body-peliculas {
-  margin: 0;
-  padding: 0; }
-  .body-peliculas .div-peliculas {
-    margin: 0;
-    padding: 0;
-    background-color: #bf8181;
-    font-family: 'Montserrat',sans-serif; }
-  .body-peliculas .main-conteiner {
-    margin: 150px auto;
-    width: 600px; }
-  .body-peliculas table {
-    background-color: white;
-    text-align: left;
-    border-collapse: collapse;
-    width: 100%; }
-  .body-peliculas th {
-    padding: 20px; }
-  .body-peliculas td {
-    padding: 20px; }
-  .body-peliculas thead {
-    background-color: black;
-    border-bottom: solid 5px  brown;
-    color: white; }
-  .body-peliculas tr:nth-child(even) {
-    background-color: gray; }
-  .body-peliculas tr :hover {
-    background-color: #bf8181;
-    color: white; }
+.main-peliculas {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center; }
 
 .titulo-peliculas {
   color: grey;
@@ -156,15 +169,9 @@ div {
   font-size: 3rem; }
 
 .titulo-secundario-peliculas {
+  margin: 10px;
   color: black;
-  background-color: brown;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-size: 2rem; }
-
-.titulo-secundario {
-  color: black;
-  background-color: white;
+  background-color: antiquewhite;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 2rem; }
@@ -176,12 +183,24 @@ div {
     width: 100%;
     height: 250px; }
 
+.lista-tabla {
+  background-color: #bfbdc1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center; }
+
 .piepagina-peliculas {
-  background-color: bisque;
-  text-align: center;
-  font-size: 13px; }
+  background: antiquewhite;
+  border-top: 2px solid rgba(0, 0, 0, 0.24);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+  .piepagina-peliculas p {
+    text-align: center; }
   .piepagina-peliculas .iconos {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     padding-left: 3px;
     padding-right: 3px; }
   .piepagina-peliculas .red-instagram :hover {
@@ -203,10 +222,7 @@ div {
   font-size: 4rem; }
 
 .fondo-videos {
-  background-color: brown;
   text-align: center; }
-  .fondo-videos .embed-responsive {
-    background-color: brown; }
 
 .title-segundo, .title-tercero {
   color: antiquewhite;
@@ -215,19 +231,24 @@ div {
   font-family: 'Montserrat', sans-serif;
   border: solid 2px antiquewhite; }
 
-.secundario-video {
-  color: antiquewhite;
-  background-color: black;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  border: solid 2px antiquewhite; }
+.video__1 {
+  max-width: 100%; }
+
+.video__2 {
+  max-width: 100%; }
 
 .piepagina-videos {
-  background-color: bisque;
-  text-align: center;
-  font-size: 13px; }
+  background: antiquewhite;
+  border-top: 2px solid rgba(0, 0, 0, 0.24);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+  .piepagina-videos p {
+    text-align: center; }
   .piepagina-videos .iconos {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     padding-left: 3px;
     padding-right: 3px; }
   .piepagina-videos .red-instagram :hover {
@@ -248,9 +269,55 @@ div {
   text-align: center;
   font-size: 3rem; }
 
+.parrafo-contacto {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 200%;
+  margin: 40px; }
+
+.h2__contacto {
+  text-align: center; }
+
+.form-register {
+  width: 400px;
+  background-color: antiquewhite;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #3e4144; }
+
+.form-register h3 {
+  font-size: 22px;
+  margin-bottom: 20px; }
+
+.controls {
+  width: 100%;
+  background-color: #3e4144;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #616263;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color: #ffffff; }
+
+.form__botones {
+  width: 100%;
+  background-color: #616263;
+  border: none;
+  padding: 12px;
+  color: #ffc0cb;
+  margin: 16px 0;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace; }
+
 .piepagina-contacto {
   background-color: bisque;
   text-align: center;
+  margin-top: 5%;
   font-size: 13px; }
   .piepagina-contacto .iconos {
     display: inline-flex;
@@ -287,14 +354,27 @@ div {
     flex-direction: column;
     align-items: center; } }
 
-@media (max-width: 800px) {
-  .body-imagenes .column {
-    flex: 50%; } }
-
-@media (max-width: 600px) {
-  .body-imagenes .column {
-    flex: 100%; } }
-
 @media (max-width: 600px) {
   .fondo-videos {
+    flex: 100%; } }
+
+@media (max-width: 1024px) {
+  .piepagina-videos {
+    position: relative;
+    top: 10%; } }
+
+@media (max-width: 800px) {
+  .piepagina-videos {
+    top: 200px; } }
+
+@media (max-width: 320px) {
+  .piepagina-videos {
+    top: 200px; } }
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%; } }
+
+@media screen and (max-width: 600px) {
+  .column {
     flex: 100%; } }
