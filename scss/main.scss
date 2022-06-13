@@ -27,6 +27,7 @@ $redes: (
 
 *{list-style:none;}
 
+/*comienzo del index*/
 body {
     background-color: gray;
 }
@@ -80,10 +81,14 @@ body {
         }
         
 }
-.imagenes-principales{
-    text-align: center;
-    background-color:black
+.parrafo-index{
+    margin: 10px;
+    @include title(2rem,black,bisque);
+    border: solid 2px antiquewhite;
+
 }
+
+
 .piepagina-index {
     width: 100%;
     position: absolute;
@@ -213,6 +218,7 @@ text-align: center;
     @include title(2rem,antiquewhite ,black)
 
 }
+
 
 .container{  
     width: 100%;
@@ -493,9 +499,4 @@ text-align: center;
     align-items: center ;
     }
 }
-@media  (max-width:320px){
-    .parrafo-contacto{
-        flex: 50%;
-        
-    }
-}
+
