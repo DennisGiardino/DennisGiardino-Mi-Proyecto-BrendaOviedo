@@ -198,10 +198,15 @@ text-align: center;
 .titulo-peliculas{
     @include title(3rem,black,grey)
 }
-.titulo-secundario{
-    @include title(2rem,white ,black)
 
-}
+
+    .titulo-secundario{ margin: 10px;
+        @include title(2rem,antiquewhite,black);
+        border: solid 2px black;
+    
+    }
+
+
 .titulo-secundario-peliculas {
     margin: 10px;
     @include title(2rem,antiquewhite ,black)
@@ -369,7 +374,7 @@ text-align: center;
     background-color: #616263;
     border: none;
     padding: 12px;
-    color: #ffc0cb;
+    color:bisque;
     margin: 16px 0;
     font-size: 16px;
     font-family:'Courier New', Courier, monospace;

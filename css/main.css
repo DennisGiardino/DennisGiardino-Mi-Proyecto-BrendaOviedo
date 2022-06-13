@@ -169,11 +169,13 @@ body {
   font-size: 3rem; }
 
 .titulo-secundario {
+  margin: 10px;
   color: black;
-  background-color: white;
+  background-color: antiquewhite;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 2rem; }
+  font-size: 2rem;
+  border: solid 2px black; }
 
 .titulo-secundario-peliculas {
   margin: 10px;
@@ -316,7 +318,7 @@ body {
   background-color: #616263;
   border: none;
   padding: 12px;
-  color: #ffc0cb;
+  color: bisque;
   margin: 16px 0;
   font-size: 16px;
   font-family: 'Courier New', Courier, monospace; }
