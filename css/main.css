@@ -170,12 +170,12 @@ body {
 
 .titulo-secundario {
   margin: 10px;
-  color: black;
-  background-color: antiquewhite;
+  color: bisque;
+  background-color: black;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 2rem;
-  border: solid 2px black; }
+  font-size: 1rem;
+  border: solid 2px antiquewhite; }
 
 .titulo-secundario-peliculas {
   margin: 10px;

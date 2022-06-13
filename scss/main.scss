@@ -200,9 +200,10 @@ text-align: center;
 }
 
 
-    .titulo-secundario{ margin: 10px;
-        @include title(2rem,antiquewhite,black);
-        border: solid 2px black;
+    .titulo-secundario{
+        margin: 10px;
+        @include title(1rem,black,bisque);
+        border: solid 2px antiquewhite;
     
     }
 
