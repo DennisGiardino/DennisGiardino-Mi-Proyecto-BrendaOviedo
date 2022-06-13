@@ -279,6 +279,11 @@ body {
   font-size: 3rem; }
 
 .parrafo-contacto {
+  color: grey;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 3rem;
   text-align: center;
   color: white;
   background-color: black;
@@ -401,3 +406,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center; } }
+
+@media (max-width: 320px) {
+  .parrafo-contacto {
+    flex: 50%; } }

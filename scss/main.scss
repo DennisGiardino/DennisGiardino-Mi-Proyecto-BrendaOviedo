@@ -333,6 +333,7 @@ text-align: center;
 @include title( 3rem,black, grey)
 }
 .parrafo-contacto {
+    @include title( 3rem,black, grey);
     text-align: center;
     color:white;
     background-color: black;
@@ -488,5 +489,11 @@ text-align: center;
     justify-content: center;
     flex-direction: column;
     align-items: center ;
+    }
+}
+@media  (max-width:320px){
+    .parrafo-contacto{
+        flex: 50%;
+        
     }
 }
