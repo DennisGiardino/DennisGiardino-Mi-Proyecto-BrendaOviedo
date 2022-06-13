@@ -333,11 +333,12 @@ text-align: center;
 @include title( 3rem,black, grey)
 }
 .parrafo-contacto {
-    @include title( 3rem,black, grey);
+    @include title( 2rem,black, grey);
+    border: solid 2px antiquewhite;
     text-align: center;
     color:white;
-    background-color: black;
-    font-size: 200%;
+
+
     margin: 40px;
 }
 

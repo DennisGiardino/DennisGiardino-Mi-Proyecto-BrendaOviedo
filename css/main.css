@@ -283,11 +283,10 @@ body {
   background-color: black;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
+  border: solid 2px antiquewhite;
   text-align: center;
   color: white;
-  background-color: black;
-  font-size: 200%;
   margin: 40px; }
 
 .h2__contacto {
